@@ -1,0 +1,255 @@
+2025-06-12 13:58:51,322 - __main__ - INFO - 日志系统初始化完成
+2025-06-12 13:58:51,322 - __main__ - INFO - 程序入口点，开始执行主程序
+2025-06-12 13:58:51,323 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-06-12 13:58:51,325 - __main__ - INFO - 服务器主程序开始启动
+2025-06-12 13:58:51,325 - __main__ - INFO - 正在加载语音识别模型...
+2025-06-12 13:58:51,365 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): pypi.org:443
+2025-06-12 13:58:51,581 - urllib3.connectionpool - DEBUG - https://pypi.org:443 "GET /pypi/funasr/json HTTP/1.1" 200 37784
+2025-06-12 13:58:51,635 - root - INFO - download models from model hub: ms
+2025-06-12 13:58:51,750 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 13:58:51,868 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/repos/internalAccelerationInfo HTTP/1.1" 200 188
+2025-06-12 13:58:51,872 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 100.100.100.200:80
+2025-06-12 13:58:52,078 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 13:58:52,231 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch HTTP/1.1" 200 None
+2025-06-12 13:58:52,472 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/revisions HTTP/1.1" 200 1267
+2025-06-12 13:58:52,709 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/repo/files?Revision=master&Recursive=True HTTP/1.1" 200 None
+2025-06-12 13:58:52,742 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 13:58:52,746 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 13:58:52,751 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 13:58:52,752 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 13:58:52,758 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 13:58:52,759 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 13:58:52,760 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 13:58:52,762 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 13:58:52,972 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/repo?Revision=master&FilePath=model.pt HTTP/1.1" 302 394
+2025-06-12 13:58:52,972 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/repo?Revision=master&FilePath=configuration.json HTTP/1.1" 302 404
+2025-06-12 13:58:52,978 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 13:58:52,979 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 13:58:53,047 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/repo?Revision=master&FilePath=config.yaml HTTP/1.1" 200 2899
+2025-06-12 13:58:53,049 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/repo?Revision=master&FilePath=example%2Fasr_example.wav HTTP/1.1" 200 417742
+2025-06-12 13:58:53,055 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 13:58:53,063 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/repo?Revision=master&FilePath=am.mvn HTTP/1.1" 302 392
+2025-06-12 13:58:53,063 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/repo?Revision=master&FilePath=.DS_Store HTTP/1.1" 302 395
+2025-06-12 13:58:53,065 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/repo?Revision=master&FilePath=seg_dict HTTP/1.1" 302 394
+2025-06-12 13:58:53,072 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 13:58:53,074 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 13:58:53,076 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 13:58:53,140 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/fd/7c/1c6fa7f499377d238b3f3790eb2f6f16318a0e33e33ae50936725f4d8388?filename=model.pt&namespace=iic&repository=speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch&revision=master&tag=model&auth_key=1749707935-98e0002599754a1f9b66639df0f772d4-0-ac7cf8bdedaaf622da131fb43df2ee72 HTTP/1.1" 206 900702648
+2025-06-12 13:58:53,146 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 13:58:53,149 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/ce/73/7a84e626e8be6b76f26f54f63b4f47ac85e1073bd81b657518149e907247?filename=configuration.json&namespace=iic&repository=speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch&revision=master&tag=model&auth_key=1749707935-2b4be2f23ff34dbe93408b35268c685e-0-33c40e689b9506c6f555770df44cdeeb HTTP/1.1" 206 693
+2025-06-12 13:58:53,150 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/repo?Revision=master&FilePath=README.md HTTP/1.1" 200 19694
+2025-06-12 13:58:53,198 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/d6/51/65279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3?filename=.DS_Store&namespace=iic&repository=speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch&revision=master&tag=model&auth_key=1749707935-52fd827d3dbc4826b2e42ad265ea5ebe-0-96ee1680fd4de20a96e3f61f459b18f2 HTTP/1.1" 206 6148
+2025-06-12 13:58:53,206 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/29/b3/c740a2c0cfc6b308126d31d7f265fa2be74f3bb095cd2f143ea970896ae5?filename=am.mvn&namespace=iic&repository=speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch&revision=master&tag=model&auth_key=1749707935-ee345b312c2e4e14bee6b85ba4615533-0-7838dfcbeef5b9ce1f791f367f0b78b0 HTTP/1.1" 206 11203
+2025-06-12 13:58:53,229 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/59/a2/ef803a3f1648ad03a2e1480db1c1ee0c0d7dc4ef4dbd16cea33944329022?filename=seg_dict&namespace=iic&repository=speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch&revision=master&tag=model&auth_key=1749707935-5a85dd1700394e8181a8c595224028b5-0-ff2aae4574f5339e9c68311c726595a8 HTTP/1.1" 206 8287834
+2025-06-12 13:58:53,263 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/repo?Revision=master&FilePath=fig%2Fstruct.png HTTP/1.1" 302 396
+2025-06-12 13:58:53,306 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 13:58:53,314 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/repo?Revision=master&FilePath=tokens.json HTTP/1.1" 302 397
+2025-06-12 13:58:53,330 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 13:58:53,500 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/bf/02/44c008d8e49e6c78f1d37820255d4b0690ef6aded9ddbc4afb3a12f0344b?filename=struct.png&namespace=iic&repository=speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch&revision=master&tag=model&auth_key=1749707935-a643de493c95439caa01e0be9fc9a025-0-df1b8cd192321eb9d33f3a0515b9409c HTTP/1.1" 206 49870
+2025-06-12 13:58:53,527 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/2b/20/c2b12572d682afff84ce1c8d560f67b8b32a4c1f21567411d141ed352127?filename=tokens.json&namespace=iic&repository=speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch&revision=master&tag=model&auth_key=1749707935-22a20fd7c1a64f26a11d27ee0c7744c9-0-b6619d354fa8e7bd4f0851ea9f02d30e HTTP/1.1" 206 93676
+2025-06-12 14:00:44,830 - root - INFO - Loading pretrained params from /Users/dongshuaijun/.cache/modelscope/hub/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/model.pt
+2025-06-12 14:00:44,839 - root - INFO - ckpt: /Users/dongshuaijun/.cache/modelscope/hub/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/model.pt
+2025-06-12 14:00:46,843 - root - INFO - scope_map: ['module.', 'None']
+2025-06-12 14:00:46,843 - root - INFO - excludes: None
+2025-06-12 14:00:47,811 - root - INFO - Loading ckpt: /Users/dongshuaijun/.cache/modelscope/hub/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/model.pt, status: <All keys matched successfully>
+2025-06-12 14:00:48,046 - root - INFO - Building VAD model.
+2025-06-12 14:00:48,046 - root - INFO - download models from model hub: ms
+2025-06-12 14:00:48,051 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:48,138 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/repos/internalAccelerationInfo HTTP/1.1" 200 188
+2025-06-12 14:00:48,141 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 100.100.100.200:80
+2025-06-12 14:00:48,347 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:48,478 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch HTTP/1.1" 200 None
+2025-06-12 14:00:48,595 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/revisions HTTP/1.1" 200 1016
+2025-06-12 14:00:48,849 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/repo/files?Revision=master&Recursive=True HTTP/1.1" 200 None
+2025-06-12 14:00:48,857 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:48,860 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:48,862 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:48,863 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:48,866 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:48,868 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:48,870 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:49,046 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/repo?Revision=master&FilePath=fig%2Fstruct.png HTTP/1.1" 302 361
+2025-06-12 14:00:49,048 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/repo?Revision=master&FilePath=am.mvn HTTP/1.1" 302 357
+2025-06-12 14:00:49,051 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 14:00:49,053 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 14:00:49,059 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/repo?Revision=master&FilePath=config.yaml HTTP/1.1" 302 362
+2025-06-12 14:00:49,063 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 14:00:49,068 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/repo?Revision=master&FilePath=configuration.json HTTP/1.1" 302 369
+2025-06-12 14:00:49,071 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 14:00:49,089 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/repo?Revision=master&FilePath=README.md HTTP/1.1" 302 360
+2025-06-12 14:00:49,093 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 14:00:49,112 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/repo?Revision=master&FilePath=example%2Fvad_example.wav HTTP/1.1" 302 366
+2025-06-12 14:00:49,116 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 14:00:49,156 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/repo?Revision=master&FilePath=model.pt HTTP/1.1" 302 359
+2025-06-12 14:00:49,159 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 14:00:49,229 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/c7/45/bcc2fd4952fb1fe5a0f7f9fdabda510c3771e7a47dd22be605e26db4ee2c?filename=struct.png&namespace=iic&repository=speech_fsmn_vad_zh-cn-16k-common-pytorch&revision=master&tag=model&auth_key=1749708051-7a88c730d877485a9e1557d9b3da70c3-0-f6e4b6c0b5b7b7f0afe1875fd2818fac HTTP/1.1" 206 27914
+2025-06-12 14:00:49,231 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/48/68/61ca26ddb79081663b6179cb204c6bfae71c52f04aafc48a9e9d8dde1e93?filename=config.yaml&namespace=iic&repository=speech_fsmn_vad_zh-cn-16k-common-pytorch&revision=master&tag=model&auth_key=1749708051-26fd44bd915649988f83c6e6bb572a88-0-64cb135d9ab0a0cc4fbfe1c23c419c52 HTTP/1.1" 206 1215
+2025-06-12 14:00:49,231 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/7b/ce/8867e37d55c3dd8f672695ced18077a2be199ea529a5d432d5350fc0acba?filename=configuration.json&namespace=iic&repository=speech_fsmn_vad_zh-cn-16k-common-pytorch&revision=master&tag=model&auth_key=1749708051-abc7d2d7a7e74b94a1127a746727cefe-0-cad8136c1ad0699b62f2b9342aa0d1e1 HTTP/1.1" 206 365
+2025-06-12 14:00:49,246 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/a7/43/1f0169ef76ef630c945a1d2c3675d8c8c2df2ae4a6b16f8a88ba1bccfbbb?filename=vad_example.wav&namespace=iic&repository=speech_fsmn_vad_zh-cn-16k-common-pytorch&revision=master&tag=model&auth_key=1749708051-b4025d51c4c64ff299fee53c47d0a70c-0-b462e8a53e738cbe847aba31c2b5d7cb HTTP/1.1" 206 2261722
+2025-06-12 14:00:49,265 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/68/20/fef9687708c4fc3fab2530179c8fcea6262daa25514380056cd8f6eb1754?filename=am.mvn&namespace=iic&repository=speech_fsmn_vad_zh-cn-16k-common-pytorch&revision=master&tag=model&auth_key=1749708051-21b5f8fc30034cc9a86d86f8c16c916e-0-7239c00e153ad6e68ad31442972ad5bd HTTP/1.1" 206 8040
+2025-06-12 14:00:49,267 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/99/18/85cf850e1629de7ce0624d83916e45791cba8049f0e4899477e7837f4f5e?filename=README.md&namespace=iic&repository=speech_fsmn_vad_zh-cn-16k-common-pytorch&revision=master&tag=model&auth_key=1749708051-3bc7b98d444c4e03a19113c18ad1c3ad-0-c7651e81171a275b218bd433e6775267 HTTP/1.1" 206 10826
+2025-06-12 14:00:49,305 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/b3/be/75be477f0780277f3bae0fe489f48718f585f3a6e45d7dd1fbb1a4255fc5?filename=model.pt&namespace=iic&repository=speech_fsmn_vad_zh-cn-16k-common-pytorch&revision=master&tag=model&auth_key=1749708051-eeb8987d22d24f0ca332a030a91bcc4a-0-98dee4321fecba3b087b85245f4d9ad7 HTTP/1.1" 206 1721366
+2025-06-12 14:00:50,284 - root - INFO - Loading pretrained params from /Users/dongshuaijun/.cache/modelscope/hub/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/model.pt
+2025-06-12 14:00:50,285 - root - INFO - ckpt: /Users/dongshuaijun/.cache/modelscope/hub/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/model.pt
+2025-06-12 14:00:50,291 - root - INFO - scope_map: ['module.', 'None']
+2025-06-12 14:00:50,292 - root - INFO - excludes: None
+2025-06-12 14:00:50,293 - root - INFO - Loading ckpt: /Users/dongshuaijun/.cache/modelscope/hub/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/model.pt, status: <All keys matched successfully>
+2025-06-12 14:00:50,297 - root - INFO - Building punc model.
+2025-06-12 14:00:50,298 - root - INFO - download models from model hub: ms
+2025-06-12 14:00:50,301 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:50,393 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/repos/internalAccelerationInfo HTTP/1.1" 200 188
+2025-06-12 14:00:50,396 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 100.100.100.200:80
+2025-06-12 14:00:50,600 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:50,759 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch HTTP/1.1" 200 None
+2025-06-12 14:00:50,879 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/revisions HTTP/1.1" 200 735
+2025-06-12 14:00:51,044 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/repo/files?Revision=master&Recursive=True HTTP/1.1" 200 None
+2025-06-12 14:00:51,050 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:51,053 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:51,059 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:51,060 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:51,060 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:51,063 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:51,066 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:51,067 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:00:51,229 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/repo?Revision=master&FilePath=.DS_Store HTTP/1.1" 200 6148
+2025-06-12 14:00:51,231 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/repo?Revision=master&FilePath=configuration.json HTTP/1.1" 302 381
+2025-06-12 14:00:51,233 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/repo?Revision=master&FilePath=config.yaml HTTP/1.1" 302 374
+2025-06-12 14:00:51,237 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 14:00:51,239 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 14:00:51,247 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/repo?Revision=master&FilePath=example%2Fpunc_example.txt HTTP/1.1" 302 379
+2025-06-12 14:00:51,249 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/repo?Revision=master&FilePath=README.md HTTP/1.1" 302 372
+2025-06-12 14:00:51,252 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 14:00:51,254 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 14:00:51,311 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/repo?Revision=master&FilePath=tokens.json HTTP/1.1" 302 374
+2025-06-12 14:00:51,316 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 14:00:51,357 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/repo?Revision=master&FilePath=fig%2Fstruct.png HTTP/1.1" 302 373
+2025-06-12 14:00:51,358 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/repo?Revision=master&FilePath=model.pt HTTP/1.1" 302 371
+2025-06-12 14:00:51,364 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 14:00:51,364 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cdn-lfs-cn-1.modelscope.cn:443
+2025-06-12 14:00:51,371 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/eb/ca/5ff883e03585b2eec84ce80573f851658bdc61f2887db7d076afe6facd91?filename=configuration.json&namespace=iic&repository=punc_ct-transformer_zh-cn-common-vocab272727-pytorch&revision=master&tag=model&auth_key=1749708053-88ae437fc25f4503ac5609a120a2f1dc-0-69a49f391de5d97a38d75cf568bce73a HTTP/1.1" 206 373
+2025-06-12 14:00:51,386 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/19/05/542a6e78e344504a3b56cbc772eb391a20eb7eac71830f837852b558dd0c?filename=punc_example.txt&namespace=iic&repository=punc_ct-transformer_zh-cn-common-vocab272727-pytorch&revision=master&tag=model&auth_key=1749708053-84c351d165654e7e8037f4c40f544e91-0-5c96f7ac6e7032998e775a9735aba02e HTTP/1.1" 206 863
+2025-06-12 14:00:51,394 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/a5/6e/c10925b06fa976ad51af373396be2b13e1eb8dc62a5426b5adebaba7071d?filename=config.yaml&namespace=iic&repository=punc_ct-transformer_zh-cn-common-vocab272727-pytorch&revision=master&tag=model&auth_key=1749708053-81d500210a724bccbbec96d753191094-0-bd1b670299ab0351985b5753ac507f0e HTTP/1.1" 206 810
+2025-06-12 14:00:51,422 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/9f/40/fb2818b62c9e79595755bca97261f095059cf54837534c2b3b1a1d8109cc?filename=README.md&namespace=iic&repository=punc_ct-transformer_zh-cn-common-vocab272727-pytorch&revision=master&tag=model&auth_key=1749708053-7e2309442c24432dbacac96f4a2905bf-0-1bda07f4e1a7fe4d12227c11decfc074 HTTP/1.1" 206 10777
+2025-06-12 14:00:51,446 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/c9/60/ab87bccea4aa15cf49a59f71973c2c330b46668048cd8da253749ec71ee3?filename=tokens.json&namespace=iic&repository=punc_ct-transformer_zh-cn-common-vocab272727-pytorch&revision=master&tag=model&auth_key=1749708053-a4d5bf6861b34bf3886ff1d9682b3e83-0-c5006b513ccdcca20056152141712816 HTTP/1.1" 206 4207480
+2025-06-12 14:00:51,543 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/a5/81/8bb9d933805a916eebe41eb41648f7f9caad30b4bd59d56f3ca135421916?filename=model.pt&namespace=iic&repository=punc_ct-transformer_zh-cn-common-vocab272727-pytorch&revision=master&tag=model&auth_key=1749708053-6c9827cdc71f4dbd90369c18b0969998-0-388958ba9d5d27a70a34b85484dd897e HTTP/1.1" 206 291979892
+2025-06-12 14:00:51,554 - urllib3.connectionpool - DEBUG - https://cdn-lfs-cn-1.modelscope.cn:443 "GET /prod/lfs-objects/90/e5/bdca14b00d4bbcafcbb1e9e2ca0e3905afb2b3b3129e5fd85d49b059812c?filename=struct.png&namespace=iic&repository=punc_ct-transformer_zh-cn-common-vocab272727-pytorch&revision=master&tag=model&auth_key=1749708053-987c7476810646e7b809ab460784571d-0-e676ae8089ae0cef3af3497ad30f9c99 HTTP/1.1" 206 154534
+2025-06-12 14:01:30,108 - root - INFO - Loading pretrained params from /Users/dongshuaijun/.cache/modelscope/hub/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/model.pt
+2025-06-12 14:01:30,109 - root - INFO - ckpt: /Users/dongshuaijun/.cache/modelscope/hub/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/model.pt
+2025-06-12 14:01:30,364 - root - INFO - scope_map: ['module.', 'None']
+2025-06-12 14:01:30,365 - root - INFO - excludes: None
+2025-06-12 14:01:30,403 - root - INFO - Loading ckpt: /Users/dongshuaijun/.cache/modelscope/hub/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/model.pt, status: <All keys matched successfully>
+2025-06-12 14:01:30,447 - __main__ - INFO - 模型加载完成！
+2025-06-12 14:01:30,447 - __main__ - INFO - 正在启动WebSocket服务器，监听地址: 192.168.8.35:8080
+2025-06-12 14:01:30,483 - __main__ - CRITICAL - 程序异常退出: could not bind on any address out of [('192.168.8.35', 8080)]
+Traceback (most recent call last):
+  File "/Users/dongshuaijun/Desktop/chanjing/xingmu/funasr/server.py", line 192, in <module>
+    asyncio.run(main())
+  File "/Users/dongshuaijun/.pyenv/versions/3.11.11/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/dongshuaijun/.pyenv/versions/3.11.11/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dongshuaijun/.pyenv/versions/3.11.11/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/dongshuaijun/Desktop/chanjing/xingmu/funasr/server.py", line 185, in main
+    server = await asr_server.start_server(host="192.168.8.35", port=8080)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dongshuaijun/Desktop/chanjing/xingmu/funasr/server.py", line 178, in start_server
+    server = await websockets.serve(self.process_audio, host, port)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dongshuaijun/Desktop/chanjing/xingmu/funasr/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py", line 831, in __await_impl__
+    server = await self.create_server
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dongshuaijun/.pyenv/versions/3.11.11/lib/python3.11/asyncio/base_events.py", line 1539, in create_server
+    raise OSError('could not bind on any address out of %r'
+OSError: could not bind on any address out of [('192.168.8.35', 8080)]
+2025-06-12 14:01:30,487 - __main__ - INFO - 程序退出
+2025-06-12 14:04:35,324 - __main__ - INFO - 日志系统初始化完成
+2025-06-12 14:04:35,324 - __main__ - INFO - 程序入口点，开始执行主程序
+2025-06-12 14:04:35,325 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-06-12 14:04:35,325 - __main__ - INFO - 服务器主程序开始启动
+2025-06-12 14:04:35,325 - __main__ - INFO - 正在加载语音识别模型...
+2025-06-12 14:04:35,345 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): pypi.org:443
+2025-06-12 14:04:35,517 - urllib3.connectionpool - DEBUG - https://pypi.org:443 "GET /pypi/funasr/json HTTP/1.1" 200 37784
+2025-06-12 14:04:35,571 - root - INFO - download models from model hub: ms
+2025-06-12 14:04:35,665 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:04:36,174 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/repos/internalAccelerationInfo HTTP/1.1" 200 188
+2025-06-12 14:04:36,199 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 100.100.100.200:80
+2025-06-12 14:04:36,403 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:04:36,597 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch HTTP/1.1" 200 None
+2025-06-12 14:04:36,736 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/revisions HTTP/1.1" 200 1267
+2025-06-12 14:04:36,942 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/repo/files?Revision=master&Recursive=True HTTP/1.1" 200 None
+2025-06-12 14:04:39,307 - root - INFO - Loading pretrained params from /Users/dongshuaijun/.cache/modelscope/hub/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/model.pt
+2025-06-12 14:04:39,437 - root - INFO - ckpt: /Users/dongshuaijun/.cache/modelscope/hub/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/model.pt
+2025-06-12 14:04:40,788 - root - INFO - scope_map: ['module.', 'None']
+2025-06-12 14:04:40,789 - root - INFO - excludes: None
+2025-06-12 14:04:40,953 - root - INFO - Loading ckpt: /Users/dongshuaijun/.cache/modelscope/hub/models/damo/speech_paraformer-large-vad-punc_asr_nat-zh-cn-16k-common-vocab8404-pytorch/model.pt, status: <All keys matched successfully>
+2025-06-12 14:04:41,234 - root - INFO - Building VAD model.
+2025-06-12 14:04:41,234 - root - INFO - download models from model hub: ms
+2025-06-12 14:04:41,238 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:04:41,344 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/repos/internalAccelerationInfo HTTP/1.1" 200 188
+2025-06-12 14:04:41,347 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 100.100.100.200:80
+2025-06-12 14:04:41,590 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:04:41,734 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch HTTP/1.1" 200 None
+2025-06-12 14:04:41,865 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/revisions HTTP/1.1" 200 1016
+2025-06-12 14:04:42,029 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/repo/files?Revision=master&Recursive=True HTTP/1.1" 200 None
+2025-06-12 14:04:42,060 - root - INFO - Loading pretrained params from /Users/dongshuaijun/.cache/modelscope/hub/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/model.pt
+2025-06-12 14:04:42,061 - root - INFO - ckpt: /Users/dongshuaijun/.cache/modelscope/hub/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/model.pt
+2025-06-12 14:04:42,075 - root - INFO - scope_map: ['module.', 'None']
+2025-06-12 14:04:42,075 - root - INFO - excludes: None
+2025-06-12 14:04:42,077 - root - INFO - Loading ckpt: /Users/dongshuaijun/.cache/modelscope/hub/models/damo/speech_fsmn_vad_zh-cn-16k-common-pytorch/model.pt, status: <All keys matched successfully>
+2025-06-12 14:04:42,082 - root - INFO - Building punc model.
+2025-06-12 14:04:42,082 - root - INFO - download models from model hub: ms
+2025-06-12 14:04:42,086 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:04:42,173 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/repos/internalAccelerationInfo HTTP/1.1" 200 188
+2025-06-12 14:04:42,175 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 100.100.100.200:80
+2025-06-12 14:04:42,381 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.modelscope.cn:443
+2025-06-12 14:04:42,518 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch HTTP/1.1" 200 None
+2025-06-12 14:04:42,729 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/revisions HTTP/1.1" 200 735
+2025-06-12 14:04:42,916 - urllib3.connectionpool - DEBUG - https://www.modelscope.cn:443 "GET /api/v1/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/repo/files?Revision=master&Recursive=True HTTP/1.1" 200 None
+2025-06-12 14:04:43,694 - root - INFO - Loading pretrained params from /Users/dongshuaijun/.cache/modelscope/hub/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/model.pt
+2025-06-12 14:04:43,694 - root - INFO - ckpt: /Users/dongshuaijun/.cache/modelscope/hub/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/model.pt
+2025-06-12 14:04:43,975 - root - INFO - scope_map: ['module.', 'None']
+2025-06-12 14:04:43,975 - root - INFO - excludes: None
+2025-06-12 14:04:44,015 - root - INFO - Loading ckpt: /Users/dongshuaijun/.cache/modelscope/hub/models/damo/punc_ct-transformer_zh-cn-common-vocab272727-pytorch/model.pt, status: <All keys matched successfully>
+2025-06-12 14:04:44,052 - __main__ - INFO - 模型加载完成！
+2025-06-12 14:04:44,052 - __main__ - INFO - 正在启动WebSocket服务器，监听地址: 192.168.8.65:8081
+2025-06-12 14:04:44,079 - websockets.server - INFO - server listening on 192.168.8.65:8081
+2025-06-12 14:04:44,079 - __main__ - INFO - 服务器启动成功，监听地址: 192.168.8.65:8081
+2025-06-12 14:04:44,079 - __main__ - INFO - 服务器已启动，等待连接...
+2025-06-12 14:05:39,472 - websockets.server - DEBUG - = connection is CONNECTING
+2025-06-12 14:05:39,474 - websockets.server - DEBUG - < GET / HTTP/1.1
+2025-06-12 14:05:39,474 - websockets.server - DEBUG - < Host: 192.168.8.65:8081
+2025-06-12 14:05:39,474 - websockets.server - DEBUG - < Upgrade: websocket
+2025-06-12 14:05:39,474 - websockets.server - DEBUG - < Connection: Upgrade
+2025-06-12 14:05:39,474 - websockets.server - DEBUG - < Sec-WebSocket-Key: F+bB0gONqDvLqDqNKxTuJQ==
+2025-06-12 14:05:39,474 - websockets.server - DEBUG - < Sec-WebSocket-Version: 13
+2025-06-12 14:05:39,474 - websockets.server - DEBUG - < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2025-06-12 14:05:39,475 - websockets.server - DEBUG - < User-Agent: Python/3.11 websockets/15.0.1
+2025-06-12 14:05:39,475 - websockets.server - DEBUG - > HTTP/1.1 101 Switching Protocols
+2025-06-12 14:05:39,475 - websockets.server - DEBUG - > Date: Thu, 12 Jun 2025 06:05:39 GMT
+2025-06-12 14:05:39,475 - websockets.server - DEBUG - > Upgrade: websocket
+2025-06-12 14:05:39,476 - websockets.server - DEBUG - > Connection: Upgrade
+2025-06-12 14:05:39,476 - websockets.server - DEBUG - > Sec-WebSocket-Accept: chVC8S3ODgZYVDmnuxKzWk/b/Bc=
+2025-06-12 14:05:39,476 - websockets.server - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+2025-06-12 14:05:39,476 - websockets.server - DEBUG - > Server: Python/3.11 websockets/15.0.1
+2025-06-12 14:05:39,476 - websockets.server - DEBUG - = connection is OPEN
+2025-06-12 14:05:39,476 - websockets.server - INFO - connection open
+2025-06-12 14:05:39,477 - websockets.server - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "/Users/dongshuaijun/Desktop/chanjing/xingmu/funasr/.venv/lib/python3.11/site-packages/websockets/asyncio/server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ASRServer.process_audio() missing 1 required positional argument: 'path'
+2025-06-12 14:05:39,478 - websockets.server - DEBUG - > CLOSE 1011 (internal error) [2 bytes]
+2025-06-12 14:05:39,479 - websockets.server - DEBUG - = connection is CLOSING
+2025-06-12 14:05:39,480 - websockets.server - DEBUG - < TEXT '{"type": "config", "sample_rate": 16000}' [40 bytes]
+2025-06-12 14:05:39,708 - websockets.server - DEBUG - < CLOSE 1011 (internal error) [2 bytes]
+2025-06-12 14:05:39,709 - websockets.server - DEBUG - > EOF
+2025-06-12 14:05:39,709 - websockets.server - DEBUG - x half-closing TCP connection
+2025-06-12 14:05:39,709 - websockets.server - DEBUG - < EOF
+2025-06-12 14:05:39,709 - websockets.server - DEBUG - = connection is CLOSED
+2025-06-12 14:06:56,776 - __main__ - INFO - 收到键盘中断，程序退出
+2025-06-12 14:06:56,777 - __main__ - INFO - 程序退出

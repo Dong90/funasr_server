@@ -1,0 +1,9 @@
+funasr>=0.3.0
+numpy<2.0.0
+pyaudio
+websocket-client
+torchaudio
+torch>=2.0.0
+scipy>=1.4.1
+librosa>=0.8.0
+soundfile>=0.12.1 
